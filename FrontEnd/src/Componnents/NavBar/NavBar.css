@@ -1,0 +1,246 @@
+.navBar {
+
+    margin: 0;
+    padding: 0 !important;
+}
+
+.navBar-wrap {
+
+    background-color: var(--main-color);
+    padding: 1.5rem 4rem;
+}
+
+.navBar-wrap__right {}
+
+.navBar-right__logo {
+    margin-left: 2rem  ;
+}
+
+.navBar-toggle {
+}
+
+.navBar-Collapse {
+    color: #fff !important;
+    
+}
+.dropdown-toggle {
+    color:  var(--white-color) !important;
+}
+
+.navBar-DropDown {
+    margin-right: 1rem  !important;
+    font-size: 1.7rem;
+    border-radius: 0.5rem  !important;
+}
+.dropdown-menu  {
+    padding:  0  !important;  
+    /* width: 400px; */
+    top: 7rem;
+    right: 0rem;
+    width: 300px;
+    border-top-color:  1px  solid  var(--green-color)  !important;
+    
+}
+
+.navBar-item {
+    font-size: 1.5rem !important;
+    text-align: right !important;
+    padding: 1rem !important;
+    background-color: var(--main-color) !important;
+    color: var(--white-color) !important;
+}
+
+
+.navBar-wrap__left {
+    display: flex;
+    align-items: center;
+
+
+}
+
+@media (max-width:768px) {
+  .navBar-wrap__left {
+  margin-top: 2rem ;
+  width: 100%  !important;
+  }
+
+
+}
+@media (min-width:900px) {
+  .navBar-wrap__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  }
+
+  .main-header__link {
+    white-space: nowrap  !important;
+  }
+  .navBar-wrap__right   {
+    width: 100% !important;
+  }
+
+
+
+
+}
+
+@media (max-width :  1368px) {
+  .navBar-wrap__left{
+    width: 100%;
+  }
+  .navBar-right__logo {
+    display: none;
+  }
+}
+
+
+.navBar-left__searchBar {
+
+    position: relative;
+}
+
+.navBar-left__searchBar--inp {
+    background-color: transparent;
+
+    outline: 0;
+    padding: 1.2rem   1rem;
+    border-radius: 2.2rem;
+    background-color: #2F3542;
+    border: 0;
+    margin-left: 2rem;
+    width: 300px;
+    color: var(--white-color);
+}
+
+.navBar-left__searchBar--icon {
+    position: absolute;
+    left: 40px;
+    top: 12px;
+    font-size: 2rem;
+
+}
+
+.navBar-left__changeTheme,
+.navBar-left__panel {
+    background-color: #2F3542;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.navBar-left__panel {
+    margin-right: 1.5rem;
+}
+
+.navBar-left__login {
+    background-color: var(--green-color);
+    padding: 0.5rem    1rem ;
+    border-radius: 0.5rem ;
+    border-radius: 0.5rem  ;
+    margin-right: 1rem  ;
+    font-size: 1.8rem  ;
+    
+}
+
+
+.navBar-left__panel--name {
+    font-size: 1.4rem  ;
+background-color: var(--back-color);
+padding: 0.5rem  ;
+border-radius: 0.5rem  ;
+
+}
+/* /////////////////////////// */
+/* Start Navbar Styles */
+
+.main-header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+  }
+  
+  .main-header__right {
+    display: flex;
+  }
+  
+  .main-header__menu {
+    display: flex;
+  }
+  
+  .main-header__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 1rem;
+  }
+  
+  .main-header__link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    font-size: 1.7rem;
+    color: var(--white-color);
+  }
+  
+  .main-header__link:hover {
+    color: #7f8187;
+  }
+  
+  .main-header__link-icon {
+    margin-right: 1rem;
+  }
+  
+  /* Start DropDown Styles */
+  
+  .main-header__dropdown {
+    position: absolute;
+    top: 5.5rem;
+    left: 0;
+    right: 0;
+    background-color: var(--main-color);
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    width: 24rem;
+    z-index: 1;
+    padding: 1rem 0;
+    border-top: 3px solid var(--green-color);
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .main-header__item:hover .main-header__dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 6.5rem;
+  }
+  
+  .main-header__dropdown-link {
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    transition: all 400ms ease;
+  }
+  
+  .main-header__dropdown-link:hover {
+    color: #1e83f0;
+  }
+  
+
+
+  /* Finish Navbar Styles */
+  

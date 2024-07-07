@@ -1,0 +1,12 @@
+@import url(./fonts.css);
+
+:root {
+
+    --main-color: #242A38;
+    --back-color: #121928;
+    --white-color: #FFFFFF;
+    --green-color: #22C55E;
+    --yellow-color: #F59E0B;
+    --blue-color  :  #0284C7  ; 
+    --main-font: IRANSans
+}

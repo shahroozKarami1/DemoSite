@@ -1,0 +1,29 @@
+.road-map {
+display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+border-radius: 2rem  ;
+padding: 1rem  ;
+cursor: pointer;
+width: 100%  !important ;
+ margin-top: 4rem  ;
+ /* margin: rem  ; */
+}
+.read-map__icon {
+    font-size: 6rem  ;
+    
+
+}
+.road-map__tittle {
+font-size: 2.1rem;
+margin-bottom: 1rem;
+
+}
+.road-map__subTitle {
+font-size: 1.5rem  ;
+color  :  #000  ;
+font-weight :   bold ;
+ font-size: 1.8rem  ;
+}

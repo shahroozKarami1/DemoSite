@@ -1,0 +1,152 @@
+.commentArea {}
+
+.commentArea-wrap {
+    background-color: var(--main-color);
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+
+}
+
+.commentArea-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.commentArea-header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.commentArea-header__right--title {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+}
+
+.commentArea-header__right--icon {
+    font-size: 3rem;
+    color: rgb(233, 20, 20) !important;
+    margin-left: 1rem;
+}
+
+.commentArea-header__left {}
+
+.commentArea-header__left--btn {
+    background-color: var(--green-color);
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.commentArea-header__left--btnIcon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+
+
+.commentArea-body {
+    /* background-color: #333C4C; */
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+/* empty  box */
+
+.commentArea-body__empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    flex-direction: column;
+}
+
+.commentArea-body__empty svg {}
+
+.commentArea-body__empty--desc {
+    margin-top: 2rem;
+    color: #ccc;
+}
+
+
+
+/* add  comment   secrion  */
+
+.addComement-wrap {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.addComment-header {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.addComment-header__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+
+
+}
+
+.addComment-header__profile--name {
+    padding-bottom: 0.5rem;
+}
+
+.addComment-header__profile--subtitle {
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.addComment-body {
+    background-color: #333C4C;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--white-color);
+
+}
+
+.addComment-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.addComment-btn_submit,
+.addComment-btn_reject {
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 150px;
+    border: 0;
+    outline: 0;
+    font-size: 1.7rem;
+}
+
+.addComment-btn_submit {
+    background-color: var(--green-color);
+    margin-left: 1rem;
+    color: var(--white-color);
+}
+
+.addComment-btn_reject {
+    border: 2px solid var(--green-color);
+    background-color: transparent;
+    color: var(--green-color);
+}

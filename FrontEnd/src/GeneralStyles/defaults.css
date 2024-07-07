@@ -1,0 +1,40 @@
+/* Start Default Styles */
+@import url(./variables.css);
+@import url(./reset.css);
+@import url(./helpers.css);
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  direction: rtl;
+  background-color:  var(--back-color);
+  color:  var(--white-color)  !important;
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: #1e83f0;
+}
+
+i {
+  user-select: none;
+}
+
+/* Finish Default Styles */

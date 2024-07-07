@@ -1,0 +1,24 @@
+.searchBar-select {}
+
+.searchBar-select__wrap {
+    display: flex;
+    align-items: center;
+    padding:  2.5rem    2rem;
+    justify-content: space-between;
+    border-radius:    1rem;
+    background-color: var(--main-color);
+    margin-top: 2rem;
+}
+
+.searchBar-select__text {
+    font-size: 1.7rem  ;
+}
+
+.form-check-input {
+    cursor: pointer;
+    /* background-color:  #717171  !important; */
+    border: 0 !important;
+    height: 20px  !important;
+    width: 50px  !important;
+    /* height: 30px  !important; */
+}

@@ -1,0 +1,38 @@
+.header-sectionCat {}
+
+.header-sectionCat__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem ;
+
+}
+
+.header-sectionCat__wrap--right {}
+
+.header-sectionCat__right--title {
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.header-sectionCat__right--title::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    border-radius: 0.5rem;
+    height: 20px;
+    background-color: var(--yellow-color);
+    right: -32px;
+    top: 13px;
+}
+
+
+
+.header-sectionCat__wrap--left {}
+
+.header-sectionCat__left--courseNumber {
+    color: #717171;
+    font-size: 2rem;
+}

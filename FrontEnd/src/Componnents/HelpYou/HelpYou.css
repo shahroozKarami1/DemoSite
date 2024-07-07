@@ -1,0 +1,37 @@
+.helpYouFirstIcon {
+    color: var(--green-color) !important;
+}
+
+.helpYouSecoundIcon,
+.helpYouFourthYou,
+.helpYouFirstIcon,
+.helpYouThirdIcon {
+    font-size: 6.5rem !important;
+    padding: 1rem;
+    z-index: 999 !important;
+    color: var(--yellow-color);
+    position: relative;
+}
+
+
+.helpYouSecoundIcon::after {
+    content: "";
+    position: absolute;
+    border-radius: 2rem;
+    width: 50px;
+    display: block;
+    height: 100px;
+    right: -15px;
+    top: -18px;
+    z-index: -1;
+    opacity: 0.4;
+    background-color: var(--yellow-color) !important;
+}
+
+.helpYouThirdIcon {
+    color: var(--blue-color) !important;
+}
+
+.helpYouFourthYou {
+    color: rgb(222, 46, 46);
+}

@@ -1,0 +1,6 @@
+.valid {
+    border:  1px  solid  var(--green-color   )   !important;
+}
+.err {
+    border:   1px solid  red    !important;   
+}

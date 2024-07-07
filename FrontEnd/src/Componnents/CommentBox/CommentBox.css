@@ -1,0 +1,86 @@
+.commentBox  {
+}
+.commentBox-wap  {
+    background-color: #333C4C;
+
+    border-radius: 1rem  ;
+    padding: 1rem  ;
+margin: 1rem  ;    
+
+}
+.commentBox-header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    border-bottom: 1px  solid  #e9e2e286;
+
+}
+.commentBox-header__info  {
+
+}
+.commentBox-header__info--right  {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.commentBox-header__info--img  {
+width: 60px;
+height: 60px;
+border-radius: 100%;
+border: 1px  solid  var(--yellow-color);
+padding: 0.5rem;
+}
+.commentBox-header__info--details  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 1rem  ;
+
+
+}
+
+.commentBox-header__info--details--name  {
+font-size: 1.7rem  ;
+font-weight: bold;
+}
+.commentBox-header__info--details--date  {
+    font-size: 1.2rem  ;
+color:  #ccc;
+padding-top: 0.5rem  ;
+
+}
+.commentBox-header__back  {
+    border: 1px  solid  var(--blue-color);
+    border-radius: 100%;
+    width: 40px;
+    transition: all  0.25s  linear;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.commentBox-header__back--icon  {
+    color: var(--blue-color);
+    font-size: 1.8rem  ;
+transition: all  0.25s  linear;
+
+}
+.commentBox-header__back:hover  .commentBox-header__back--icon   {
+    color: var(--white-color);
+
+}
+.commentBox-header__back:hover {
+    background-color: var(--blue-color);
+}
+.commentBox-body  {
+
+    padding: 1.5rem   1rem   ;
+
+}
+.commentBox-body__parageraph  {
+line-height: 2;
+font-size: 1.5rem  ;
+}

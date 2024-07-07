@@ -1,0 +1,36 @@
+.searchCat {}
+
+.searchCat-wrap {
+    margin-top: 2rem  ;
+}
+
+.searchCat-typeBox {
+    position: relative;
+    border-radius: 1.5rem    ;
+    background-color: var(--main-color);
+    padding: 2rem  0  ;
+    display: flex;
+    align-items: center;
+}
+
+.searchCat-typeBox__inp {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding-right: 1rem  ;
+
+height: 100%;
+    width: 100%;
+    color: var(--white-color);
+
+
+}
+
+.searchCat-typeBox__icon {
+    position: absolute;
+    left: 0;
+    font-size: 3rem  ;
+    margin-left: 1rem  ;
+    cursor: pointer;
+
+}

@@ -1,0 +1,87 @@
+.breadCrumb-wrap {
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.breadCrumb-icon {
+    font-size: 2.5rem;
+}
+
+.breadCrumb-icon__home {
+    position: relative;
+}
+
+.breadCrumb-list {
+    display: flex;
+    align-items: center;
+}
+
+.breadCrumb-item {}
+
+.breadCrumb-item__link {
+    position: relative;
+    margin-right: 7rem;
+    font-size: 1.5rem;
+    
+    text-align: center !important;
+}
+
+.breadCrumb-item__link::after {
+    content: "";
+    position: absolute;
+    background-color: var(--back-color) !important;
+    bottom: 11px;
+    transform: rotate(53deg);
+    transform-origin: bottom;
+    z-index: 999;
+    width: 5px;
+    height: 229%;
+    right: 62px;
+    margin-right: 2rem;
+}
+
+.breadCrumb-item__link::before {
+    content: "";
+    position: absolute;
+    background-color: var(--back-color) !important;
+    bottom: -25px;
+    transform: rotate(-47deg);
+    transform-origin: bottom;
+    z-index: 999;
+    width: 5px;
+    height: 235%;
+    right: 22px;
+    margin-right: 2rem;
+}
+
+.breadCrumb-icon__home::after {
+    content: "";
+    position: absolute;
+    background-color: var(--back-color) !important;
+    bottom: 11px;
+    transform: rotate(53deg);
+    transform-origin: bottom;
+    z-index: 999;
+    width: 5px;
+    height: 229%;
+    right: 62px;
+    margin-right: 3rem;
+}
+
+.breadCrumb-icon__home::before {
+    content: "";
+    position: absolute;
+    background-color: var(--back-color) !important;
+    bottom: -25px;
+    transform: rotate(-47deg);
+    transform-origin: bottom;
+    z-index: 999;
+    width: 5px;
+    height: 235%;
+    right: 22px;
+    margin-right: 2rem;
+}
